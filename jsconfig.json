@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",                     // ✅ Required for `paths` to work
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"]                    // ✅ Makes `@/lib/...` resolve correctly
     }
   }
 }
